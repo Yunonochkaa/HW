@@ -19,9 +19,9 @@ public class Main {
         arrayList.add("D:\\Games\\Games\\savegames\\game1.dat");
         arrayList.add("D:\\Games\\Games\\savegames\\game2.dat");
         arrayList.add("D:\\Games\\Games\\savegames\\game3.dat");
-        deleteFiles(arrayList);
-
         zipFiles("D:\\Games\\Games\\savegames\\zip.zip", arrayList);
+
+        deleteFiles(arrayList);
 
 
     }
